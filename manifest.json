@@ -2,5 +2,9 @@
     "name": "Charity Evaluator",
     "version": "1.0",
     "description": "Extension to assess charities based on spending and value.",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
   }
