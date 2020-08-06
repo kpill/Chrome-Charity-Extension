@@ -4,8 +4,8 @@ import json
 
 app_id = "182dd05a"
 app_key = "af09573c3fec842aad8a44d18ad57e4d"
-#search = json.loads(JSONtitle)  ##JSONtitle is from the jquery.js file. is this allowed?
 search = input("Enter charity name: ") 
+#search = json.loads(JSONtitle)  ##JSONtitle is from the jquery.js file. is this allowed?
 searchType = "NAME_ONLY"
 url = "https://api.data.charitynavigator.org/v2/Organizations?" + "app_id=" + app_id + "&app_key=" + app_key + "&search=" + search + "&searchType" + searchType
 
