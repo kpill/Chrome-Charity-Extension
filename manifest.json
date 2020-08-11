@@ -4,12 +4,12 @@
     "description": "Extension to assess charities based on spending and value.",
     "manifest_version": 2,
     "background": {
-      "scripts": ["jquery.js"],
+      "scripts": ["jquery.js", "background.js"],
       "persistent": false
     },
     
     "page_action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
       "default_icon": {
         //images for toolbar icon
       }
