@@ -4,4 +4,5 @@ window.onload = function() {
   var title = $( "title" ).html();
   var search = JSON.stringify(title);
   const searchType = "NAME-ONLY";
+  const url = "https://api.data.charitynavigator.org/v2/Organizations?";
 }
