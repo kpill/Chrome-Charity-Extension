@@ -10,7 +10,7 @@
     },
     
     "page_action": {
-      "default_popup": "popup.html",
+      "default_popup": "charitychecker.html",
       "default_icon": {
         
       }
