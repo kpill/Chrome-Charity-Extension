@@ -9,7 +9,7 @@
       "persistent": false
     },
     
-    "page_action": {
+    "browser_action": {
       "default_popup": "charitychecker.html",
       "default_icon": {
 	"16": "images/get_started16.png",
