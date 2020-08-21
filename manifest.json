@@ -5,7 +5,7 @@
     "manifest_version": 2,
     "permissions": ["declarativeContent"],
     "background": {
-      "scripts": ["jquery.js", "background.js"],
+      "scripts": ["charitychecker.js", "background.js"],
       "persistent": false
     },
     
