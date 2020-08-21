@@ -5,7 +5,7 @@
     "manifest_version": 2,
     "permissions": ["activeTab", "declarativeContent"],
     "background": {
-      "scripts": ["charitychecker.js", "background.js"],
+      "scripts": ["popup.js", "background.js", "charitychecker.js"],
       "persistent": false
     },
     
