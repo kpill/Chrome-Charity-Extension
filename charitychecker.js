@@ -2,7 +2,7 @@ window.onload = function() {
 const app_id = "182dd05a";
 const app_key = "af09573c3fec842aad8a44d18ad57e4d";
 const searchType = "NAME-ONLY";
-var title = $( "title" ).html();
+var title = document.getElementsByTagName("title")[0].innerHTML;
 var search = JSON.stringify(title);
 var url = "https://api.data.charitynavigator.org/v2/Organizations?app_id=182dd05a&app_key=af09573c3fec842aad8a44d18ad57e4d&search="
 var url = url.concat(search);
