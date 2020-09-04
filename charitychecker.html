@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charity Checker</title>
+    <style>
+    /* Style the buttons */
+    .btn {
+        border: none;
+        outline: none;
+        padding: 10px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    /* Style the active class, and buttons on mouse-over */
+    .active, .btn:hover {
+        background-color: #666;
+        color: white;
+    }
+    </style>
     <h1> Charity Checker </h1>
 </head>
 <body>
+    <div id="myDIV">
+        <button class="btn active">IRS Information</button>
+        <button class="btn active">Reviews</button>
+    </div>
     <div class="container"></div>
   	<div id="myData"></div>
     <script src="charitychecker.js"></script>
