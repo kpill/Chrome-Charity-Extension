@@ -4,7 +4,17 @@ chrome.tabs.query({ currentWindow: true, active: true }, function (tabs) {
 	var url = "https://api.data.charitynavigator.org/v2/Organizations?app_id=182dd05a&app_key=af09573c3fec842aad8a44d18ad57e4d&search="
 	var url = url.concat(search);
 	console.log(url)
-
+	
+var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+        }
+	
 fetch(url)
 	.then(response => {
 		console.log(response);
